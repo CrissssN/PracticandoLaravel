@@ -5,4 +5,5 @@
     <input type="email" name="email" id="email" placeholder="Email:" required>
     <input type="password" name="password" id="password" placeholder="Contraseña:" required>
     <button type=submit>Enviar</button>
+    Hola Mundo
 </form>
