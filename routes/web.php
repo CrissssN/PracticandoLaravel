@@ -13,6 +13,7 @@ Route::get('/hola',[MyController::class,'index']);
 Route::get('principal',[MyController::class,'main']);
 
 Route:: get('/Formulario',function(){
+    echo "Modificacion 2 (chore)";
     return view('Formulario');
 
 });
