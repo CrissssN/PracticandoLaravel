@@ -18,3 +18,7 @@ Route:: get('/Formulario',function(){
 });
 Route::post('/Formulario',[Forms::class,'FormularioPost']);
 
+Route:: get('/Formulario/ejemplo',function(){
+    return 'Modificacion 1 (son lo mismo feat)';
+
+});
