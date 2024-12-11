@@ -13,4 +13,8 @@ class MyController extends Controller
     public function main(){
         return view('friends.welcome');
     }
+
+    public function modif(){
+        return 'Modificacion 3 (fix)';
+    }
 }
